@@ -57,7 +57,6 @@ import flash.events.KeyboardEvent;
 import Controls;
 import Controls.Control;
 
-#if windows
 import vm.lua.LuaVM;
 import vm.lua.Exception;
 import Sys;
@@ -66,7 +65,6 @@ import llua.Convert;
 import llua.Lua;
 import llua.State;
 import llua.LuaL;
-#end
 
 using StringTools;
 
